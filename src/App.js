@@ -93,7 +93,7 @@ function App() {
     <div className="App">
      <header>
       <h1>Mood Toggler Dapp!</h1>
-        <h3 className='explaination'>Here we can set or get the mood from <span className='ropsten'>goerli </span> testnet</h3>
+        <h3 className='explaination'>Here we can set or get the mood from <span className='goerli'>goerli </span> testnet</h3>
 
         <h4 className='mood-to-display'>
           Now, The Mood is: <span className='mood'>{moodToDisplay ? moodToDisplay : ''}</span>
@@ -116,6 +116,10 @@ function App() {
           {disclaimer ? disclaimer : ''}
         </p>
         </main>
+
+        <footer>
+          Made by @zankoocode
+        </footer>
     </div>
   );
 }

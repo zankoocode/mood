@@ -40,7 +40,7 @@ h1 {
   font-size: 1.1rem;
   height: 20%;
 }
-.ropsten {
+.goerli {
   color: rgb(236, 89, 141);
 }
 .mood-to-display{
@@ -123,4 +123,9 @@ label {
   line-height: 1.5rem;
   font-weight: bold;
   text-align: justify;
+}
+
+
+footer {
+  height: 5%;
 }
